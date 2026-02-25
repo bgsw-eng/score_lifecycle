@@ -2,7 +2,7 @@
   {
     "name": "test_smoke",
     "file": "tests/integration/smoke/smoke.py",
-    "line": "21",
+    "line": "22",
     "result": "failed",
     "TestType": "interface-test",
     "DerivationTechnique": "explorative-testing",
