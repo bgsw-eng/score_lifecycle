@@ -930,10 +930,8 @@ bool ConfigurationManager::checkOrSetFlatConfigEnvVar(const std::string& name, c
         if (setenv(name.c_str(), path.c_str(), overwrite_) == 0)
         {
             result = true;
-        }
-        else
-        {
-            LM_LOG_DEBUG() << name.c_str() << "not set, so default flat config binary path loaded";
+        } else {
+            LM_LOG_DEBUG() << name << "not set, so default flat config binary path loaded";
         }
     }
 
